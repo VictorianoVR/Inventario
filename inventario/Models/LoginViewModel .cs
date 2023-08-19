@@ -1,4 +1,4 @@
-﻿namespace ProyectoDCU.Models
+﻿namespace inventario.Models
 {
     public class LoginViewModel
     {

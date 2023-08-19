@@ -1,13 +1,11 @@
 ﻿using inventario.Models;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using ProyectoDCU.Models;
 using System.Diagnostics;
 using System.Net;
 
 namespace inventario.Controllers
 {
-    public class HomeController : Controller
+	public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -35,23 +33,49 @@ namespace inventario.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        //login
-        public IActionResult Login(string correoElectronico, string password)
-        {
-        //    try
-        //    {
-        //        var result = Datos.UsuarioLogin(correoElectronico, password);
-        //        if (result == null)
-        //            return StatusCode((int)HttpStatusCode.NotFound, "Usuario o Clave Incorrecto");
+		//login
+		[HttpPost]
+		public IActionResult RedLogin(LoginViewModel model)
+		{
+
+			try
+			{
+				var modelData = new Usuario()
+				{
+					CorreoElectronico = model.CorreoElectronico ?? "",
+					Password = model.Password ?? ""
+					
+
+				};
+
+				Datos.UsuarioLogin(modelData);
+				return RedirectToAction("Index");
+
+			}
+			catch (Exception e)
+			{
+				return StatusCode((int)HttpStatusCode.InternalServerError);
+			}
+			//try
+			//{
+			//    var result = Datos.UsuarioLogin(correoElectronico, password);
+			//    if (result == null)
+			//        return StatusCode((int)HttpStatusCode.NotFound, "Usuario o Clave Incorrecto");
 
 
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return StatusCode((int)HttpStatusCode.InternalServerError);
-        //    }
-            return View();
-        }
+			//}
+			//catch (Exception e)
+			//{
+			//    return StatusCode((int)HttpStatusCode.InternalServerError);
+			//}
+			//return View();
+		}
 
-    }
+		public IActionResult Login()
+		{
+
+			return View();
+		}
+	}
+    
 }

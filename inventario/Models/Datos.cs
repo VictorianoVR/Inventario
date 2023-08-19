@@ -1,23 +1,23 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Reflection;
+using System.Data.SqlClient;
 
-namespace ProyectoDCU.Models
+namespace inventario.Models
 {
     public static class Datos
     {
         //login
-        public static Usuario UsuarioLogin(string correoElectronico, string password)
+        public static Usuario UsuarioLogin(Usuario model)
         {
-            string query = $"select  CorreoElectronico, Password from dbo.Usuarios where CorreoElectronico = '{correoElectronico}' and " +
-                $"Password = '{password}' ";
+            string query = $"select * from dbo.Usuarios where CorreoElectronico = @CorreoElectronico and Password = @Password";
 
-            Usuario model = null;
-            using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventaris;Integrated Security=True");
+            
+            using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True");
             SqlCommand cmd = new SqlCommand(query, con);
-            //cmd.Parameters.AddWithValue("@CorreoElectronico", model.CorreoElectronico);
-            //cmd.Parameters.AddWithValue("@Password", string.IsNullOrWhiteSpace(model.Password) ? null : model.Password);
+            cmd.Parameters.AddWithValue("@CorreoElectronico", model.CorreoElectronico);
+			cmd.Parameters.AddWithValue("@Password", model.Password);
 
-            con.Open();
+			con.Open();
             using SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
