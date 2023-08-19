@@ -38,18 +38,19 @@ namespace inventario.Controllers
         //login
         public IActionResult Login(string correoElectronico, string password)
         {
-            try
-            {
-                var result = Datos.UsuarioLogin(correoElectronico, password);
-                if (result == null)
-                    return StatusCode((int)HttpStatusCode.NotFound, "Usuario o Clave Incorrecto");
+        //    try
+        //    {
+        //        var result = Datos.UsuarioLogin(correoElectronico, password);
+        //        if (result == null)
+        //            return StatusCode((int)HttpStatusCode.NotFound, "Usuario o Clave Incorrecto");
 
-                return RedirectToAction("Index");
-            }
-            catch (Exception e)
-            {
-                return StatusCode((int)HttpStatusCode.InternalServerError);
-            }
+
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        return StatusCode((int)HttpStatusCode.InternalServerError);
+        //    }
+            return View();
         }
 
     }

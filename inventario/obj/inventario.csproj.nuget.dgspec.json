@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\c#\\inventario\\inventario\\inventario.csproj": {}
+    "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\inventario.csproj": {}
   },
   "projects": {
-    "E:\\c#\\inventario\\inventario\\inventario.csproj": {
+    "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\inventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\c#\\inventario\\inventario\\inventario.csproj",
+        "projectUniqueName": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\inventario.csproj",
         "projectName": "inventario",
-        "projectPath": "E:\\c#\\inventario\\inventario\\inventario.csproj",
+        "projectPath": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\inventario.csproj",
         "packagesPath": "C:\\Users\\Victoriano\\.nuget\\packages\\",
-        "outputPath": "E:\\c#\\inventario\\inventario\\obj\\",
+        "outputPath": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victoriano\\AppData\\Roaming\\NuGet\\NuGet.Config",

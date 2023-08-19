@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+wHqE/d3VRJ8t6+Ty7fsrfnEwh24xfK8VgrIHoyG9iPcL5BcV1GNBAM6YSVrP+ps999D50VDNQ/YRZazwOOWMw==",
+  "dgSpecHash": "JZfkj1hxPg9ozoMFo8wCyFymyN81DEV5Upth2A7tCjGHU5HbrACraqXVsrcbiojI9NY4SfZDDn36nUshZbdsJg==",
   "success": true,
-  "projectFilePath": "E:\\c#\\inventario\\inventario\\inventario.csproj",
+  "projectFilePath": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\inventario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victoriano\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Victoriano\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
