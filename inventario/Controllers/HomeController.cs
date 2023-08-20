@@ -44,19 +44,13 @@ namespace inventario.Controllers
 				{
 					CorreoElectronico = model.CorreoElectronico ?? "",
 					Password = model.Password ?? ""
-
-
 				};
-				Datos.UsuarioLogin(modelData);
 				var res = Datos.UsuarioLogin(modelData);
 				
-				if (res != null) 
-				{
-					return RedirectToAction("Index");
+				if (res != null)
+                    return RedirectToAction("Index");
 
-				}
-				
-				return RedirectToAction("Login");
+                return RedirectToAction("Login");
 			}
 			catch (Exception e)
 			{
@@ -139,7 +133,7 @@ namespace inventario.Controllers
 					Nombre = model.Nombre ?? "",
 				};
 
-				Datos.BuscarProducto(modelData);
+				var result = Datos.BuscarProducto(modelData);
 				return RedirectToAction("Inventario");
 
 			}

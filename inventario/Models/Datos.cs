@@ -8,12 +8,12 @@ namespace inventario.Models
     public static class Datos
     {
         //login
-        public static Usuario UsuarioLogin(Usuario model)
+        public static Usuario? UsuarioLogin(Usuario model)
         {
             string query = $"select * from dbo.Usuarios where CorreoElectronico = @CorreoElectronico and Password = @Password";
 
-			
-			using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
+            Usuario? result = null;
+			using SqlConnection con = new SqlConnection("Data source=MC\\HOME;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.AddWithValue("@CorreoElectronico", model.CorreoElectronico);
 			cmd.Parameters.AddWithValue("@Password", model.Password);
@@ -22,10 +22,10 @@ namespace inventario.Models
             using SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                model = reader.GetModel<Usuario>();
+                result = reader.GetModel<Usuario>();
             }
             con.Close();
-            return model;
+            return result;
         }
         public static void CrearProducto(Producto model)
         {
@@ -109,19 +109,13 @@ namespace inventario.Models
 					
 					con.Open();
 					using SqlDataReader reader = cmd.ExecuteReader();
-					while (reader.Read())
-					{
-						model = reader.GetModel<Producto>();
-					}	
-					
-						while (reader.Read())
-						{
-							model = reader.GetModel<Producto>();
-							result.Add(model);
-						}
-						con.Close();
-					
-				}
+                    while (reader.Read())
+                    {
+                        model = reader.GetModel<Producto>();
+                        result.Add(model);
+                    }
+                    con.Close();
+                }
 			}
 			catch (Exception e)
 			{
