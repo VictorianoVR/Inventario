@@ -133,7 +133,7 @@ namespace inventario.Controllers
 					Nombre = model.Nombre ?? "",
 				};
 
-				var result = Datos.BuscarProducto(modelData);
+				var result = Datos.BuscarProducto(modelData.IdProducto, modelData.Nombre);
 				return RedirectToAction("Inventario");
 
 			}

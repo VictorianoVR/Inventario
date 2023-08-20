@@ -93,19 +93,19 @@ namespace inventario.Models
             }
             return result;
         }
-		public static List<Producto> BuscarProducto(Producto model)
+		public static List<Producto> BuscarProducto(string id, string nombre)
 		{
 			var result = new List<Producto>();
 			string query = $"select * from dbo.Productos where IdProducto = @IdProducto or Nombre = @Nombre";
 
-			//Producto model = null;
+			Producto model = null;
 			try
 			{
 				using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
 				{
 					SqlCommand cmd = new SqlCommand(query, con);
-					cmd.Parameters.AddWithValue("@IdProducto", model.IdProducto);
-					cmd.Parameters.AddWithValue("@Nombre", model.Nombre);
+					cmd.Parameters.AddWithValue("@IdProducto", id);
+					cmd.Parameters.AddWithValue("@Nombre", nombre);
 					
 					con.Open();
 					using SqlDataReader reader = cmd.ExecuteReader();

@@ -2,17 +2,18 @@
 @{
 	var result = new List<Producto>();
 }
+
 <section class="full-width pageContent">
 	<section class="full-width header-well">
 		<h3 class="titulo">Inventary</h3>
 	</section>
 	@* Buscar *@
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-		<button type="submit" class="mdl-button mdl-js-button mdl-button--icon" for="searchProduct" id="btn-addProduct">
+		<label type="submit" class="mdl-button mdl-js-button mdl-button--icon" for="searchProduct" id="btn-addProduct">
 		
-			<i class="zmdi zmdi-search"></i>
+			<i type="button" class="zmdi zmdi-search" onclick=""></i>
 		
-		</button>
+		</label>
 		<div class="mdl-textfield__expandable-holder">
 			<input class="mdl-textfield__input" type="text" id="searchProduct" asp-for="@Model.Nombre">
 			<label class="mdl-textfield__label"></label>
@@ -33,9 +34,9 @@
 						</tr>
 					</thead>
 					<tbody>
-						@if (true)
+						@if (!string.IsNullOrWhiteSpace(Model?.Nombre))
 						{
-							@* @foreach (var producto in Datos.BuscarProducto)
+							 @foreach (var producto in Datos.BuscarProducto(Model?.IdProducto, Model?.Nombre))
 							{
 								<tr>
 									<td class="mdl-data-table__cell--non-numeric">@producto.Nombre</td>
@@ -44,7 +45,7 @@
 									<td>$@producto.Precio</td>
 									<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
 								</tr>
-							} *@
+							} 
 
 						}else{
 						@foreach (var producto in Datos.ListadoProducto())
