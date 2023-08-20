@@ -1,6 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Reflection;
 using System.Data.SqlClient;
+using System.Reflection.Metadata;
 
 namespace inventario.Models
 {
@@ -11,8 +12,8 @@ namespace inventario.Models
         {
             string query = $"select * from dbo.Usuarios where CorreoElectronico = @CorreoElectronico and Password = @Password";
 
-            
-            using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True");
+			
+			using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.AddWithValue("@CorreoElectronico", model.CorreoElectronico);
 			cmd.Parameters.AddWithValue("@Password", model.Password);
@@ -24,46 +25,63 @@ namespace inventario.Models
                 model = reader.GetModel<Usuario>();
             }
             con.Close();
-
             return model;
         }
-        //public static void CrearRegistro(Usuario model)
-        //{
-        //    string query = $"insert into dbo.Usuarios(Nombre, Correo, Clave) values(@Nombre, @Correo, @Clave)";
-
-        //    using (SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=DCU;Integrated Security=True"))
-        //    {
-        //        SqlCommand cmd = new SqlCommand(query, con);
-        //        cmd.Parameters.AddWithValue("@Nombre", model.Nombre);
-
-        //        cmd.Parameters.AddWithValue("@Correo", model.Correo);
-
-        //        cmd.Parameters.AddWithValue("@Celular", string.IsNullOrWhiteSpace(model.Celular) ? null : model.Celular);
-
-        //        con.Open();
-        //        cmd.ExecuteNonQuery();
-        //        con.Close();
-        //    }
-        //}
-
-        public static List<Usuario> GetList()
+        public static void CrearProducto(Producto model)
         {
-            var result = new List<Usuario>();
-            string query = $"select * from dbo.Usuarios";
+            string query = $"insert into dbo.Productos(IdProducto,Nombre, Unidades, Precio) values(@IdProducto,@Nombre, @Unidades, @Precio)";
 
-            Usuario model = null;
+			using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
+			{
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@IdProducto", model.IdProducto);
+                cmd.Parameters.AddWithValue("@Nombre", model.Nombre);
+				cmd.Parameters.AddWithValue("@Unidades", model.Unidades);
+				cmd.Parameters.AddWithValue("@Precio", model.Precio);
+				//cmd.Parameters.AddWithValue("@Celular", string.IsNullOrWhiteSpace(model.Celular) ? null : model.Celular);
+
+				con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+        }
+		public static void ModificarProducto(Producto model)
+		{
+			string query = $"update dbo.Productos set Nombre = @Nombre, Unidades = @Unidades, Precio = @Precio where IdProducto = @IdProducto";
+
+			using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
+			{
+				SqlCommand cmd = new SqlCommand(query, con);
+				cmd.Parameters.AddWithValue("@IdProducto", model.IdProducto);
+				cmd.Parameters.AddWithValue("@Nombre", model.Nombre);
+				cmd.Parameters.AddWithValue("@Unidades", model.Unidades);
+				cmd.Parameters.AddWithValue("@Precio", model.Precio);
+				//cmd.Parameters.AddWithValue("@Celular", string.IsNullOrWhiteSpace(model.Celular) ? null : model.Celular);
+
+				con.Open();
+				cmd.ExecuteNonQuery();
+				con.Close();
+			}
+		}
+
+		public static List<Producto> ListadoProducto()
+        {
+            var result = new List<Producto>();
+            string query = $"select * from dbo.Productos";
+
+			Producto model = null;
             try
             {
-                using (SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=DCU;Integrated Security=True"))
-                {
+				using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
+				{
                     SqlCommand cmd = new SqlCommand(query, con);
-
-                    con.Open();
+					
+					con.Open();
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            model = reader.GetModel<Usuario>();
+                            model = reader.GetModel<Producto>();
                             result.Add(model);
                         }
                         con.Close();
@@ -75,8 +93,43 @@ namespace inventario.Models
             }
             return result;
         }
+		public static List<Producto> BuscarProducto(Producto model)
+		{
+			var result = new List<Producto>();
+			string query = $"select * from dbo.Productos where IdProducto = @IdProducto or Nombre = @Nombre";
 
-        public static void Eliminar(int id)
+			//Producto model = null;
+			try
+			{
+				using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
+				{
+					SqlCommand cmd = new SqlCommand(query, con);
+					cmd.Parameters.AddWithValue("@IdProducto", model.IdProducto);
+					cmd.Parameters.AddWithValue("@Nombre", model.Nombre);
+					
+					con.Open();
+					using SqlDataReader reader = cmd.ExecuteReader();
+					while (reader.Read())
+					{
+						model = reader.GetModel<Producto>();
+					}	
+					
+						while (reader.Read())
+						{
+							model = reader.GetModel<Producto>();
+							result.Add(model);
+						}
+						con.Close();
+					
+				}
+			}
+			catch (Exception e)
+			{
+			}
+			return result;
+		}
+
+		public static void Eliminar(int id)
         {
             string query = $"delete dbo.DCU where Id = '{id}'";
 

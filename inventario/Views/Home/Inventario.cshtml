@@ -1,14 +1,20 @@
-﻿<section class="full-width pageContent">
+﻿@model inventario.Models.ProductoViewModel
+@{
+	var result = new List<Producto>();
+}
+<section class="full-width pageContent">
 	<section class="full-width header-well">
 		<h3 class="titulo">Inventary</h3>
 	</section>
 	@* Buscar *@
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-		<label class="mdl-button mdl-js-button mdl-button--icon" for="searchProduct">
+		<button type="submit" class="mdl-button mdl-js-button mdl-button--icon" for="searchProduct" id="btn-addProduct">
+		
 			<i class="zmdi zmdi-search"></i>
-		</label>
+		
+		</button>
 		<div class="mdl-textfield__expandable-holder">
-			<input class="mdl-textfield__input" type="text" id="searchProduct">
+			<input class="mdl-textfield__input" type="text" id="searchProduct" asp-for="@Model.Nombre">
 			<label class="mdl-textfield__label"></label>
 		</div>
 	</div>
@@ -27,55 +33,30 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td class="mdl-data-table__cell--non-numeric">Product Name</td>
-							<td>Product Code</td>
-							<td>7</td>
-							<td>$77</td>
-							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
-						</tr>
-						<tr>
-							<td class="mdl-data-table__cell--non-numeric">Product Name</td>
-							<td>Product Code</td>
-							<td>7</td>
-							<td>$77</td>
-							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
-						</tr>
-						<tr>
-							<td class="mdl-data-table__cell--non-numeric">Product Name</td>
-							<td>Product Code</td>
-							<td>7</td>
-							<td>$77</td>
-							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
-						</tr>
-						<tr>
-							<td class="mdl-data-table__cell--non-numeric">Product Name</td>
-							<td>Product Code</td>
-							<td>7</td>
-							<td>$77</td>
-							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
-						</tr>
-						<tr>
-							<td class="mdl-data-table__cell--non-numeric">Product Name</td>
-							<td>Product Code</td>
-							<td>7</td>
-							<td>$77</td>
-							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
-						</tr>
-						<tr>
-							<td class="mdl-data-table__cell--non-numeric">Product Name</td>
-							<td>Product Code</td>
-							<td>7</td>
-							<td>$77</td>
-							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
-						</tr>
-						<tr>
-							<td class="mdl-data-table__cell--non-numeric">Product Name</td>
-							<td>Product Code</td>
-							<td>7</td>
-							<td>$77</td>
-							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
-						</tr>
+						@if (true)
+						{
+							@* @foreach (var producto in Datos.BuscarProducto)
+							{
+								<tr>
+									<td class="mdl-data-table__cell--non-numeric">@producto.Nombre</td>
+									<td>@producto.IdProducto</td>
+									<td>@producto.Unidades</td>
+									<td>$@producto.Precio</td>
+									<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
+								</tr>
+							} *@
+
+						}else{
+						@foreach (var producto in Datos.ListadoProducto())
+						{
+							<tr>
+								<td class="mdl-data-table__cell--non-numeric">@producto.Nombre</td>
+								<td>@producto.IdProducto</td>
+								<td>@producto.Unidades</td>
+								<td>$@producto.Precio</td>
+								<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
+							</tr>
+						}}
 					</tbody>
 				</table>
 			</div>

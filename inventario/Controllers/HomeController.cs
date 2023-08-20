@@ -37,20 +37,26 @@ namespace inventario.Controllers
 		[HttpPost]
 		public IActionResult RedLogin(LoginViewModel model)
 		{
-
 			try
 			{
+				
 				var modelData = new Usuario()
 				{
 					CorreoElectronico = model.CorreoElectronico ?? "",
 					Password = model.Password ?? ""
-					
+
 
 				};
-
 				Datos.UsuarioLogin(modelData);
-				return RedirectToAction("Index");
+				var res = Datos.UsuarioLogin(modelData);
+				
+				if (res != null) 
+				{
+					return RedirectToAction("Index");
 
+				}
+				
+				return RedirectToAction("Login");
 			}
 			catch (Exception e)
 			{
@@ -76,6 +82,75 @@ namespace inventario.Controllers
 
 			return View();
 		}
+		[HttpPost]
+		public IActionResult PostProducto(ProductoViewModel model)
+		{
+			try
+			{
+				var modelData = new Producto()
+				{
+					IdProducto = model.IdProducto ?? "",
+					Nombre = model.Nombre ?? "",
+					Unidades = model.Unidades ?? 0,
+					Precio = model.Precio ?? 0
+
+				};
+
+				Datos.CrearProducto(modelData);
+				return RedirectToAction("Index");
+
+			}
+			catch (Exception e)
+			{
+				return StatusCode((int)HttpStatusCode.InternalServerError);
+			}
+
+		}
+		public IActionResult ModificarProducto(ProductoViewModel model)
+		{
+			try
+			{
+				var modelData = new Producto()
+				{
+					IdProducto = model.IdProducto ?? "",
+					Nombre = model.Nombre ?? "",
+					Unidades = model.Unidades ?? 0,
+					Precio = model.Precio ?? 0
+
+				};
+
+				Datos.ModificarProducto(modelData);
+				return RedirectToAction("Index");
+
+			}
+			catch (Exception e)
+			{
+				return StatusCode((int)HttpStatusCode.InternalServerError);
+			}
+
+		}
+		public IActionResult BuscarProducto(ProductoViewModel model)
+		{
+			try
+			{
+				var modelData = new Producto()
+				{
+					IdProducto = model.IdProducto ?? "",
+					Nombre = model.Nombre ?? "",
+				};
+
+				Datos.BuscarProducto(modelData);
+				return RedirectToAction("Inventario");
+
+			}
+			catch (Exception e)
+			{
+				return StatusCode((int)HttpStatusCode.InternalServerError);
+			}
+
+		}
+
 	}
-    
 }
+
+    

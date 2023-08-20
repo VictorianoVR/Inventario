@@ -28,10 +28,10 @@
 				<i class="zmdi zmdi-account-circle"></i>
 			</p>
 			<p class="text-center text-condensedLight">Sign in with your Account</p>
-			<form form id="" asp-controller="Home" asp-action="RedLogin" method="post">
+			<form  id="" asp-controller="Home" asp-action="RedLogin" method="post">
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 					<input class="mdl-textfield__input" type="text" id="userName" asp-for="@Model.CorreoElectronico">
-					<label class="mdl-textfield__label" for="userName">Email</label>
+					<label class="mdl-textfield__label" >Email</label>
 				</div>
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 					<input class="mdl-textfield__input" type="password" id="pass" asp-for="@Model.Password">
