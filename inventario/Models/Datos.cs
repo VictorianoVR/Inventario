@@ -13,7 +13,7 @@ namespace inventario.Models
             string query = $"select * from dbo.Usuarios where CorreoElectronico = @CorreoElectronico and Password = @Password";
 
             Usuario? result = null;
-			using SqlConnection con = new SqlConnection("Data source=MC\\HOME;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
+			using SqlConnection con = new SqlConnection("Data source=DESKTOP-8C8J082;initial catalog=inventario;Integrated Security=True;Trusted_Connection=True;Encrypt=false");
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.AddWithValue("@CorreoElectronico", model.CorreoElectronico);
 			cmd.Parameters.AddWithValue("@Password", model.Password);

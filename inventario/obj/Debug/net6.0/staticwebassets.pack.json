@@ -61,10 +61,6 @@
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\sweetalert2.css",
       "PackagePath": "staticwebassets\\css\\sweetalert2.css"
     },

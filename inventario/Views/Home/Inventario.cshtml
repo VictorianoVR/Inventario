@@ -30,11 +30,11 @@
 							<th>Code</th>
 							<th>Stock</th>
 							<th>Price</th>
-							<th>Options</th>
+							<th>Delete</th>
 						</tr>
 					</thead>
 					<tbody>
-						@if (!string.IsNullOrWhiteSpace(Model?.Nombre))
+						@* @if (!string.IsNullOrWhiteSpace(Model?.Nombre))
 						{
 							 @foreach (var producto in Datos.BuscarProducto(Model?.IdProducto, Model?.Nombre))
 							{
@@ -47,7 +47,7 @@
 								</tr>
 							} 
 
-						}else{
+						}else{ *@
 						@foreach (var producto in Datos.ListadoProducto())
 						{
 							<tr>
@@ -57,7 +57,7 @@
 								<td>$@producto.Precio</td>
 								<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
 							</tr>
-						}}
+						}@* } *@
 					</tbody>
 				</table>
 			</div>

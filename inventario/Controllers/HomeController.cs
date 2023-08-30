@@ -1,4 +1,5 @@
-﻿using inventario.Models;
+﻿using inventario.Context;
+using inventario.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Net;
@@ -8,10 +9,12 @@ namespace inventario.Controllers
 	public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+		private readonly InventarioDbContext context;
 
-        public HomeController(ILogger<HomeController> logger)
+		public HomeController(ILogger<HomeController> logger, InventarioDbContext ctx)
         {
             _logger = logger;
+			context = ctx;
         }
 
         public IActionResult Index()
@@ -47,7 +50,7 @@ namespace inventario.Controllers
 				};
 				var res = Datos.UsuarioLogin(modelData);
 				
-				if (res != null)
+				//if (res != null)
                     return RedirectToAction("Index");
 
                 return RedirectToAction("Login");
@@ -143,7 +146,10 @@ namespace inventario.Controllers
 			}
 
 		}
-
+		public IActionResult Company()
+		{
+			return View();
+		}
 	}
 }
 
