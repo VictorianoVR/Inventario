@@ -1,13 +1,9 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
-using inventario.Context;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<InventarioDbContext>(options =>
-{
-	options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
-});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -38,6 +34,6 @@ app.UseAuthentication();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Login}/{id?}");
+    pattern: "{controller=Login}/{action=Login}/{id?}");
 
 app.Run();

@@ -1,0 +1,67 @@
+﻿@model inventario.Dtos.ProductDto
+@{
+	// var result = new List<Producto>();
+}
+
+<section class="full-width pageContent">
+	<section class="full-width header-well">
+		<h3 class="titulo">Inventary</h3>
+	</section>
+	 Buscar
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+	<label type="submit" class="mdl-button mdl-js-button mdl-button--icon" for="searchProduct" id="btn-addProduct">
+
+		<i type="button" class="zmdi zmdi-search" onclick=""></i>
+
+	</label>
+	<div class="mdl-textfield__expandable-holder">
+		<input class="mdl-textfield__input" type="text" id="searchProduct" asp-for="@Model.Name">
+		<label class="mdl-textfield__label"></label>
+	</div>
+</div>
+<div class="full-width divider-menu-h"></div>
+<div class="mdl-grid">
+	<div class="mdl-cell mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--12-col-desktop">
+		<div class="table-responsive">
+			<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp full-width table-responsive">
+				<thead>
+					<tr>
+						<th class="mdl-data-table__cell--non-numeric">Name</th>
+						<th>Code</th>
+						<th>Stock</th>
+						<th>Price</th>
+						<th>Delete</th>
+					</tr>
+				</thead>
+				<tbody>
+				@* 	  @if (!string.IsNullOrWhiteSpace(Model?.Name))
+					{
+					@foreach (var product in Datos.BuscarProducto(Model?.IdProducto, Model?.Nombre))
+					{
+					<tr>
+					<td class="mdl-data-table__cell--non-numeric">@producto.Nombre</td>
+					<td>@producto.IdProducto</td>
+					<td>@producto.Unidades</td>
+					<td>$@producto.Precio</td>
+					<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
+					</tr>
+					} 
+
+					}else
+					{ 
+					@foreach (var producto in Datos.ListadoProducto())
+					{
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">@producto.Nombre</td>
+							<td>@producto.IdProducto</td>
+							<td>@producto.Unidades</td>
+							<td>$@producto.Precio</td>
+							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
+						</tr>
+					}}   *@
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+< 

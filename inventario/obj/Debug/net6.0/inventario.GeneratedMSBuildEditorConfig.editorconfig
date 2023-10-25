@@ -9,53 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = inventario
 build_property.RootNamespace = inventario
-build_property.ProjectDir = C:\Users\Victoriano\Desktop\gib\Inventario\inventario\
+build_property.ProjectDir = C:\Users\Victoriano\Desktop\Escritorio\gib\Inventario\inventario\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Victoriano\Desktop\gib\Inventario\inventario
+build_property.MSBuildProjectDirectory = C:\Users\Victoriano\Desktop\Escritorio\gib\Inventario\inventario
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Home/Company.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Home/Company.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wYW55LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Home/Index.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Home/Inventario.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Home/Inventario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnZlbnRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Home/Login.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Home/Privacy.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Home/Productos.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Home/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Inventario/Inventario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xJbnZlbnRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/_ViewImports.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/_ViewStart.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoriano/Desktop/gib/Inventario/inventario/Views/Shared/_Layout.cshtml]
+[C:/Users/Victoriano/Desktop/Escritorio/gib/Inventario/inventario/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gr3srzycaf

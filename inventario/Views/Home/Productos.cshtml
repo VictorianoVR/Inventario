@@ -1,4 +1,4 @@
-﻿@model inventario.Models.ProductoViewModel
+﻿@model inventario.Dtos.ProductDto
 <section class="full-width pageContent">
 <section class="full-width header-well">
 	<h3 class="titulo">Products</h3>
@@ -23,28 +23,28 @@
 								
 								<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
 									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-										<input class="mdl-textfield__input" type="text" pattern="-?[0-9- ]*(\.[0-9]+)?" id="BarCode" asp-for="@Model.IdProducto">
+										<input class="mdl-textfield__input" type="text" pattern="-?[0-9- ]*(\.[0-9]+)?" id="BarCode" asp-for="@Model.Id">
 										<label class="mdl-textfield__label" for="BarCode">Id</label>
 										<span class="mdl-textfield__error">Invalid barcode</span>
 									</div>
 								</div>
 								<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
 									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-											<input class="mdl-textfield__input" type="text" pattern="-?[A-Za-z0-9áéíóúÁÉÍÓÚ ]*(\.[0-9]+)?" id="NameProduct" asp-for="@Model.Nombre">
+											<input class="mdl-textfield__input" type="text" pattern="-?[A-Za-z0-9áéíóúÁÉÍÓÚ ]*(\.[0-9]+)?" id="NameProduct" asp-for="@Model.Name">
 										<label class="mdl-textfield__label" for="NameProduct">Name</label>
 										<span class="mdl-textfield__error">Invalid name</span>
 									</div>
 								</div>
 								<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
 									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-											<input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="StrockProduct" asp-for="@Model.Unidades">
+											<input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="StrockProduct" asp-for="@Model.Amount">
 										<label class="mdl-textfield__label" for="StrockProduct">Units</label>
 										<span class="mdl-textfield__error">Invalid number</span>
 									</div>
 								</div>
 								<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
 									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-											<input class="mdl-textfield__input" type="number" pattern="-?[0-9.]*(\.[0-9]+)?" id="PriceProduct" asp-for="@Model.Precio">
+											<input class="mdl-textfield__input" type="number" pattern="-?[0-9.]*(\.[0-9]+)?" id="PriceProduct" asp-for="@Model.Price">
 										<label class="mdl-textfield__label" for="PriceProduct">Price</label>
 										<span class="mdl-textfield__error">Invalid price</span>
 									</div>
@@ -80,28 +80,28 @@
 								<div class="mdl-grid">
 									<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
 										<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-											<input class="mdl-textfield__input" type="text" pattern="-?[0-9- ]*(\.[0-9]+)?" id="BarCode" asp-for="@Model.IdProducto">
+											<input class="mdl-textfield__input" type="text" pattern="-?[0-9- ]*(\.[0-9]+)?" id="BarCode" asp-for="@Model.Id">
 											<label class="mdl-textfield__label" for="BarCode">Id</label>
 											<span class="mdl-textfield__error">Invalid barcode</span>
 										</div>
 									</div>
 									<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
 										<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-											<input class="mdl-textfield__input" type="text" pattern="-?[A-Za-z0-9áéíóúÁÉÍÓÚ ]*(\.[0-9]+)?" id="NameProduct" asp-for="@Model.Nombre">
+											<input class="mdl-textfield__input" type="text" pattern="-?[A-Za-z0-9áéíóúÁÉÍÓÚ ]*(\.[0-9]+)?" id="NameProduct" asp-for="@Model.Name">
 											<label class="mdl-textfield__label" for="NameProduct">Name</label>
 											<span class="mdl-textfield__error">Invalid name</span>
 										</div>
 									</div>
 									<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
 										<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-											<input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="StrockProduct" asp-for="@Model.Unidades">
+											<input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="StrockProduct" asp-for="@Model.Amount">
 											<label class="mdl-textfield__label" for="StrockProduct">Units</label>
 											<span class="mdl-textfield__error">Invalid number</span>
 										</div>
 									</div>
 									<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
 										<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-											<input class="mdl-textfield__input" type="number" pattern="-?[0-9.]*(\.[0-9]+)?" id="PriceProduct" asp-for="@Model.Precio">
+											<input class="mdl-textfield__input" type="number" pattern="-?[0-9.]*(\.[0-9]+)?" id="PriceProduct" asp-for="@Model.Price">
 											<label class="mdl-textfield__label" for="PriceProduct">Price</label>
 											<span class="mdl-textfield__error">Invalid price</span>
 										</div>

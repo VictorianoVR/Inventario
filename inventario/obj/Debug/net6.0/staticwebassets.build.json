@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RSKP6LkX/Rxip5NFsjG2IO4hbUgDWLxsaJS+6I5Yxxw=",
+  "Hash": "aoB6Tnb12OduMIFGySZBFx8CSMUQjC7auI/OU7uuBZY=",
   "Source": "inventario",
   "BasePath": "_content/inventario",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "inventario\\wwwroot",
       "Source": "inventario",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\bundle\\inventario.styles.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\bundle\\inventario.styles.css",
       "SourceId": "inventario",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/inventario",
       "RelativePath": "inventario.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\bundle\\inventario.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\bundle\\inventario.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\inventario.bundle.scp.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\inventario.bundle.scp.css",
       "SourceId": "inventario",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/inventario",
       "RelativePath": "inventario.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\inventario.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\inventario.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\assets\\icons\\descarga.png",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\assets\\icons\\descarga.png",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "assets/icons/descarga.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons\\descarga.png"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\assets\\icons\\mCSB_buttons.png",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\assets\\icons\\mCSB_buttons.png",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "assets/icons/mCSB_buttons.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons\\mCSB_buttons.png"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\avatar-female.png",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\avatar-female.png",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "assets/img/avatar-female.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatar-female.png"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\avatar-female2.png",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\avatar-female2.png",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "assets/img/avatar-female2.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatar-female2.png"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\avatar-male.png",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\avatar-male.png",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "assets/img/avatar-male.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatar-male.png"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\avatar-male2.png",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\avatar-male2.png",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "assets/img/avatar-male2.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatar-male2.png"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\fontLogin.jpg",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\fontLogin.jpg",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "assets/img/fontLogin.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\fontLogin.jpg"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\FontNavLateral.jpg",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\assets\\img\\FontNavLateral.jpg",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "assets/img/FontNavLateral.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\FontNavLateral.jpg"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\jquery.mCustomScrollbar.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\css\\jquery.mCustomScrollbar.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "css/jquery.mCustomScrollbar.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\jquery.mCustomScrollbar.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\Login.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\css\\Login.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\main.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\css\\main.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\material.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\css\\material.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "css/material.min.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\material.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\material-design-iconic-font.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\css\\material-design-iconic-font.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "css/material-design-iconic-font.min.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\normalize.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\css\\normalize.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "css/normalize.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\normalize.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\css\\sweetalert2.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\css\\sweetalert2.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "css/sweetalert2.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\sweetalert2.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\favicon.ico",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.eot",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.eot",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/Material-Design-Iconic-Font.eot",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.svg",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.svg",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/Material-Design-Iconic-Font.svg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.ttf",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/Material-Design-Iconic-Font.ttf",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.woff",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.woff",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/Material-Design-Iconic-Font.woff",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\Material-Design-Iconic-Font.woff2",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/Material-Design-Iconic-Font.woff2",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.eot",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.eot",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/oswald-light.eot",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\oswald-light.eot"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.svg",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.svg",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/oswald-light.svg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\oswald-light.svg"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.ttf",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.ttf",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/oswald-light.ttf",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\oswald-light.ttf"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.woff",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.woff",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/oswald-light.woff",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\oswald-light.woff"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.woff2",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\oswald-light.woff2",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/oswald-light.woff2",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\oswald-light.woff2"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.eot",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.eot",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/robotocondensed-light.eot",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\robotocondensed-light.eot"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.svg",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.svg",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/robotocondensed-light.svg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\robotocondensed-light.svg"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.ttf",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.ttf",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/robotocondensed-light.ttf",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\robotocondensed-light.ttf"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.woff",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.woff",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/robotocondensed-light.woff",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\robotocondensed-light.woff"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.woff2",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\robotocondensed-light.woff2",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/robotocondensed-light.woff2",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\robotocondensed-light.woff2"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.eot",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.eot",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/roboto-regular.eot",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\roboto-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.svg",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.svg",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/roboto-regular.svg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\roboto-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.ttf",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.ttf",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/roboto-regular.ttf",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\roboto-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.woff",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.woff",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/roboto-regular.woff",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\roboto-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.woff2",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\fonts\\roboto-regular.woff2",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "fonts/roboto-regular.woff2",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\roboto-regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "js/jquery.mCustomScrollbar.concat.min.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\js\\jquery-1.11.2.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\js\\jquery-1.11.2.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "js/jquery-1.11.2.min.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-1.11.2.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\js\\main.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\js\\material.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\js\\material.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "js/material.min.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\js\\material.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\js\\site.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\js\\sweetalert2.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\js\\sweetalert2.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "js/sweetalert2.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sweetalert2.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "inventario",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\gib\\Inventario\\inventario\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Victoriano\\Desktop\\Escritorio\\gib\\Inventario\\inventario\\wwwroot\\",
       "BasePath": "_content/inventario",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

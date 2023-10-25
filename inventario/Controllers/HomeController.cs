@@ -1,5 +1,5 @@
-﻿using inventario.Context;
-using inventario.Models;
+﻿
+using inventario.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Net;
@@ -9,15 +9,14 @@ namespace inventario.Controllers
 	public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-		private readonly InventarioDbContext context;
+		
 
-		public HomeController(ILogger<HomeController> logger, InventarioDbContext ctx)
+		public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
-			context = ctx;
+            _logger = logger;	
         }
 
-        public IActionResult Index()
+        public IActionResult Home()
         {
             return View();
         }
@@ -26,130 +25,59 @@ namespace inventario.Controllers
         {
             return View();
         }
-        public IActionResult Inventario()
-        {
-            return View();
-        }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-		//login
-		[HttpPost]
-		public IActionResult RedLogin(LoginViewModel model)
+		public IActionResult Inventario()
 		{
+			//return View();
 			try
 			{
-				
-				var modelData = new Usuario()
-				{
-					CorreoElectronico = model.CorreoElectronico ?? "",
-					Password = model.Password ?? ""
-				};
-				var res = Datos.UsuarioLogin(modelData);
-				
-				//if (res != null)
-                    return RedirectToAction("Index");
+				GetDataProducts getDataProducts = new GetDataProducts();
+				var products = getDataProducts.GetProducts();
 
-                return RedirectToAction("Login");
+				// Devuelve el listado de productos a la vista
+				return View(products);
+
 			}
 			catch (Exception e)
 			{
+
+					return StatusCode((int)HttpStatusCode.InternalServerError);
+			}
+
+		}
+		public IActionResult searchInventario()
+		{
+			//return View();
+			try
+			{
+				GetDataProducts getDataProducts = new GetDataProducts();
+				var products = getDataProducts.GetProducts();
+
+				// Devuelve el listado de productos a la vista
+				return View(products);
+
+			}
+			catch (Exception e)
+			{
+
 				return StatusCode((int)HttpStatusCode.InternalServerError);
 			}
-			//try
-			//{
-			//    var result = Datos.UsuarioLogin(correoElectronico, password);
-			//    if (result == null)
-			//        return StatusCode((int)HttpStatusCode.NotFound, "Usuario o Clave Incorrecto");
 
-
-			//}
-			//catch (Exception e)
-			//{
-			//    return StatusCode((int)HttpStatusCode.InternalServerError);
-			//}
-			//return View();
 		}
+
+
+
+
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+       
+	
 
 		public IActionResult Login()
 		{
 
 			return View();
 		}
-		[HttpPost]
-		public IActionResult PostProducto(ProductoViewModel model)
-		{
-			try
-			{
-				var modelData = new Producto()
-				{
-					IdProducto = model.IdProducto ?? "",
-					Nombre = model.Nombre ?? "",
-					Unidades = model.Unidades ?? 0,
-					Precio = model.Precio ?? 0
-
-				};
-
-				Datos.CrearProducto(modelData);
-				return RedirectToAction("Index");
-
-			}
-			catch (Exception e)
-			{
-				return StatusCode((int)HttpStatusCode.InternalServerError);
-			}
-
-		}
-		public IActionResult ModificarProducto(ProductoViewModel model)
-		{
-			try
-			{
-				var modelData = new Producto()
-				{
-					IdProducto = model.IdProducto ?? "",
-					Nombre = model.Nombre ?? "",
-					Unidades = model.Unidades ?? 0,
-					Precio = model.Precio ?? 0
-
-				};
-
-				Datos.ModificarProducto(modelData);
-				return RedirectToAction("Index");
-
-			}
-			catch (Exception e)
-			{
-				return StatusCode((int)HttpStatusCode.InternalServerError);
-			}
-
-		}
-		public IActionResult BuscarProducto(ProductoViewModel model)
-		{
-			try
-			{
-				var modelData = new Producto()
-				{
-					IdProducto = model.IdProducto ?? "",
-					Nombre = model.Nombre ?? "",
-				};
-
-				var result = Datos.BuscarProducto(modelData.IdProducto, modelData.Nombre);
-				return RedirectToAction("Inventario");
-
-			}
-			catch (Exception e)
-			{
-				return StatusCode((int)HttpStatusCode.InternalServerError);
-			}
-
-		}
-		public IActionResult Company()
-		{
-			return View();
-		}
+	
 	}
 }
 
